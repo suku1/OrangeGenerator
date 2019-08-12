@@ -6,6 +6,10 @@
 ```bash
 $ pip install tensorflow
 ```
+ - Pillow
+```bash
+$ pip install Pillow
+```
 
 ## Usage  
 ```bash
