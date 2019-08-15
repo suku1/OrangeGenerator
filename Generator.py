@@ -68,7 +68,7 @@ if __name__ == '__main__':
     model_name = 'Orange02.h5'
     num_image = 100
     l = len(sys.argv)
-    if l >= 2: num_image = sys.argv[1]
+    if l >= 2: num_image = int(sys.argv[1])
     #画像num_image枚分のノイズを生成
     noise = np.random.uniform(-1, 1, (num_image, 100))
     #画像を生成
