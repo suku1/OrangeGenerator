@@ -13,7 +13,7 @@ $ pip install Pillow
 
 ## Usage  
 ```bash
-$ python Generator.py
+$ python Generator.py 生成枚数(未入力の場合は100)
 ```
 
 ## Licence
