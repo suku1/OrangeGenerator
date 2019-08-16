@@ -72,6 +72,6 @@ if __name__ == '__main__':
     num_image = min(num_image, 1000)
     #画像num_image枚分のノイズを生成
     noise = np.random.uniform(-1, 1, (num_image, 100))
-    print(noise.shape)
+    #print(noise.shape)
     #画像を生成
     gen_image(model_name, noise)
